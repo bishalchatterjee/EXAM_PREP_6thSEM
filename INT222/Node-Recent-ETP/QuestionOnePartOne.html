@@ -1,0 +1,24 @@
+<!-- Write a javascript code that changes the image when 'change image button is clicked(Node image should already be displayed on opening the web page) -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change Image</title>
+  </head>
+  <body>
+    <img id="myImage" src="assets/download.jpeg" alt="Image" />
+    <button onclick="changeImage()">Change Image</button>
+
+    <script>
+      function changeImage() {
+        var image = document.getElementById("myImage");
+        if (image.src.match("assets/download.jpeg")) {
+          image.src = "assets/download2.jpeg";
+        } else {
+          image.src = "assets/download.jpeg";
+        }
+      }
+    </script>
+  </body>
+</html>
