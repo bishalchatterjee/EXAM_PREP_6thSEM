@@ -1,4 +1,6 @@
-// Implement a client server application with the express, HTTP and socket.io modules to display the studnet(your) detais in the server console after getting a request(connection) from a client. Then Broadcast the only odd visitor cout from the server to all clients with the new client connections.
+// Implement a client server application with the express, HTTP and socket.io modules to display the studnet(your) 
+// detais in the server console after getting a request(connection) from a client.
+//  Then Broadcast the only odd visitor cout from the server to all clients with the new client connections.
 
 const express = require('express');
 const http = require('http');

@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import QuestionOne from './components/QuestionOne';
 import QuestionTwo from './components/QuestionTwo';
+import WindowSizeComponent from './components/CustomHookImplementation';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <QuestionTwo></QuestionTwo>
       <p>---------End-----------</p>
       <br></br>
+      <WindowSizeComponent></WindowSizeComponent>
     </div>
   );
 }

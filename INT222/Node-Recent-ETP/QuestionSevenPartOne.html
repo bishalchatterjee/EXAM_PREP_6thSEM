@@ -1,32 +1,30 @@
 <!-- Create a webpage that contains a paragraph when user hovers mouse over the paragraph font style of paragraph must get changed -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Font Style Change on Hover</title>
-  <style>
-    p {
-      font-family: 'Times New Roman', Times, serif;
-    }
-  </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font Style Change on Hover</title>
+    <style>
+      p {
+        font-family: "Times New Roman", Times, serif;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="hover-paragraph">Hover over me to change my font style</p>
 
-<p id="hover-paragraph">Hover over me to change my font style</p>
+    <script>
+      // JavaScript code for font style change on hover
+      const paragraph = document.getElementById("hover-paragraph");
 
-<script>
-// JavaScript code for font style change on hover
-const paragraph = document.getElementById('hover-paragraph');
+      paragraph.addEventListener("mouseover", () => {
+        paragraph.style.fontFamily = "Arial, sans-serif";
+      });
 
-paragraph.addEventListener('mouseover', () => {
-    paragraph.style.fontFamily = 'Arial, sans-serif';
-});
-
-paragraph.addEventListener('mouseout', () => {
-    paragraph.style.fontFamily = 'Times New Roman, Times, serif';
-});
-</script>
-
-</body>
+      paragraph.addEventListener("mouseout", () => {
+        paragraph.style.fontFamily = "Times New Roman, Times, serif";
+      });
+    </script>
+  </body>
 </html>

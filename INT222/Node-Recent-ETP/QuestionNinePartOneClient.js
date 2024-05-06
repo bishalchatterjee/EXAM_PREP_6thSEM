@@ -1,6 +1,6 @@
 const io = require('socket.io-client');
 
-const socket = io('http://localhost:3000'); // Replace with your server URL
+const socket = io('http://localhost:3000'); 
 
 let intervalId;
 
