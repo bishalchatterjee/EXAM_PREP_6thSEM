@@ -1,0 +1,10 @@
+1) How would you handle errors in a connect application? can you wirte a middleware function that catches and logs errors?
+2)what security practices would you implement in an express.js application to protect it from common web vulnerabilites
+3)show the working of insert update and delete in postgresql
+4)perform the nodejs crud operations using mongoose
+5)write a program to open the file and read its content modify and sabt the changes using the fs module in nodejs
+6)describe a scenario where you would use express.js error handling capcabilites how would you implement an error handler for catching 404 and 500 status errors
+7)How would you integreate a loggin middleware in a express.js application to tract the request-response cycle
+8)write the code to compress the file and decompres it using ZLIB module and compare sizes
+9)if you need to create a RESTfulAPI for a resourece say 'products' what routes would you define in Express.js and what would be their correspoinding HTTP methods?
+10)write and call a function that removes duplicates froma an array keeeping only the unique elements
