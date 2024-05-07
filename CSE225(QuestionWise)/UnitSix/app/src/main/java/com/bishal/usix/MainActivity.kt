@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        val intent= Intent(this, SwipeViewActivity::class.java)
+        val intent= Intent(this, CoursesActivity::class.java)
         startActivity(intent)
     }
 }

@@ -25,7 +25,8 @@
         <activity android:name=".SwipeViewActivity"
             android:exported="true"/>
 
-
+        <activity android:name=".CoursesActivity"
+            android:exported="true"/>
     </application>
 
 </manifest>
